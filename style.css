@@ -25,3 +25,50 @@ h1{
 section{
     height: 500px;
 }
+.link-button{
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 12px 35px;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.half-width a:hover{
+    background-image: linear-gradient(rgb(73, 25, 6),rgb(250, 56, 21));
+    color: whitesmoke;
+    border: 1px solid lightsalmon;
+}
+.second-half{
+    float: left;
+    width: 40%;
+    margin:3%;
+    padding: 2%;
+
+}
+.second-half img{
+    width: 100%;
+}
+.second-half h1{
+    font-size: 35px;
+}
+.mid-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 7%;
+    padding-bottom: 700px;
+}
+.dream-button{
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 12px 35px;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.second-half a:hover{
+    background-image: linear-gradient(rgb(228, 15, 104),rgb(92, 62, 5));
+    border: 1px solid orange;
+}
